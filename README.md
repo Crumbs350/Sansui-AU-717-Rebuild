@@ -1,6 +1,10 @@
 # Sansui-AU-717-Rebuild
 Consolidated documentation of Sansui AU-717 Rebuild.  This is a non-code project focused on documentation, methods, tools, and parts needed to revitalize a Sansui AU-717. Documentation generated during my journey to rebuild this classic integrated amplifer with the help of the Audiokarma.org community and broader web resources.
 
+Repository Index
+===========================
+Parts.md = general information about electrical parts
+
 
 
 Sansui AU-717 Rebuild Plans
