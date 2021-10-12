@@ -1,115 +1,97 @@
 # Sansui-AU-717-Rebuild
 Consolidated documentation of Sansui AU-717 Rebuild.  This is a non-code project focused on documentation, methods, tools, and parts needed to revitalize a Sansui AU-717. Documentation generated during my journey to rebuild this classic integrated amplifer with the help of the Audiokarma.org community and broader web resources.
 
-Repository Index
-===========================
+# Repository Index
 Parts.md = general information about electrical parts
 
+# Sansui AU-717 Rebuild General Information
 
+## Prep for Success
+* Read and understand what you are doing before you start
+* Document the process
+  * Take pictures
+    * of board number and multiple angles before disassembly
+    * during disassembly with labels to help you understand orientation later
+  * draw diagrams of screw locations and parts disassembled
+  * use tape loops on paper to capture screws in an orientation similar to where they were originally, with diagrams or notes on the paper
+  * attached labels to removed parts
+  * mark wire colors on diagrams, and label wires if possible to get them confused with other connections
+* Always use a dim bulb tester after each repair when applying power the first time
 
-Sansui AU-717 Rebuild Plans
-===========================
+## What you need for the job
 
-How To 
+### Replacement Parts and a Plan
+* See below for plan
+* Parts list used. [TODO add reference]()
 
-How To: Desolder: [http://www.bestsoldering.com/learn-how-to-desolder-beginners-guide/](http://www.bestsoldering.com/learn-how-to-desolder-beginners-guide/) 
+### Tools
+* wrap all but the tip of a small screwdriver with electrical tape to use to adjust amp offset and bias
+* dim build tester [TODO: add reference]() to test for shorts after work
+* cut credit card = PCB safe scrapper
+* gloves
+* fan - use to extract/disperse fumes
+* soldering iron
+* solder sucker and/or copper mesh
+* brass ball to clean solder tip
+* jewelers headset to 
 
-* heat and pull vs heat and push with bull-nose plier then pull/leverage 
-  as heat 
+### Chemicals/Materials
+* water
+* isopropyl alcohol
+* thermal paste
+* cotton balls
+* small fuel line to replace tubing on leads of vibration susceptible parts
+* heat shrink
+* aluminum foil and cardboard scraps
+* solder
+* solder flux
 
-* heat and push lead gently with bull-nose plier, then can pull 
-  more easily 
+# Sansui AU-717 Rebuild Plans and Online Guides
 
+## References
+1. LeeStereo Build Thread
+1. SuperNoob Build Thread
+  * there are a number of typo errors, verify the parts 
+  * saved as audio.sansui.amp_rebuild.au717.restore_via_audiokarma_supernoob-summary.docx
+1. AnalogueBen in AudioKarma: 883773 recommended parts list
 
+## Manuals and Specifications References
+* 
+* [https://www.vintageshifi.com/repertoire-pdf/m-Sansui.php](https://www.vintageshifi.com/repertoire-pdf/m-Sansui.php) has transistor replacement table and [AU-717 Service Manual at VintageHifi](https://www.vintageshifi.com/repertoire-pdf/pdf/telecharge.php?pdf=Sansui-AU-517-AU-717-Service-Manual.pdf)
+  
 
-How To: Solder: [http://www.bestsoldering.com/learn-how-to-solder-beginners-guide/](http://www.bestsoldering.com/learn-how-to-solder-beginners-guide/) 
-
-* use cut offs leads to help clear stubborn holes. Hold with pliers 
-  using very short lead to push 
-
-* release solder then run tip of soldering iron up lead as release 
-  to draw heat away a little slower 
-
-* use alligator clips to hold other lead in place to pull part 
-  tight against board 
-
-* put small amount of flux on the lead using a toothpick or small 
-  brush 
-
-
-
-How To: transistor beta match: [http://www.bestsoldering.com/transistor-matching/](http://www.bestsoldering.com/transistor-matching/) 
-
-Transistor comparison: [http://users.tpg.com.au/gerskine/greg/driver%20transistors.htm](http://users.tpg.com.au/gerskine/greg/driver%20transistors.htm) 
-
-Fix damaged trace cover: [https://forum.allaboutcircuits.com/threads/how-to-insulate-a-circuit-board.11371/](https://forum.allaboutcircuits.com/threads/how-to-insulate-a-circuit-board.11371/) 
-use epoxy, RTX, etc but must dry first completely 
-
-Transistor Swap Package: [https://audiokarma.org/forums/index.php?threads/to-66-to-to-220-etc-ways-to-replace.476734/](https://audiokarma.org/forums/index.php?threads/to-66-to-to-220-etc-ways-to-replace.476734/) 
-
-Process
--------
-
-Take pictures of board number and multiple angles before disassembly 
-
-Capacitors 
-
-Per [link](https://electronics.stackexchange.com/questions/69919/ceramic-vs-film-capacitor-which-one-is-preferred-in-audio-circuits). 
-
-Film Capacitor 
-
-* typically denotes polyester or polymer film as the dielectric 
-
-* metallized film capacitors are the same thing: metallic coating 
-  being applied to an extremely thin polymer film, to create 
-  the conducting electrodes of the capacitor. 
-
-
-Rebuild Plan Parts Suggestions 
--------
+## Rebuild Plan Parts Suggestions 
 
 parts list [https://audiokarma.org/forums/index.php?threads/project-sansui-au-717-restore-rebuild.893233/](https://audiokarma.org/forums/index.php?threads/project-sansui-au-717-restore-rebuild.893233/) 
 references supernoob build 
 
-transistor swap thread: 
 
-* old links: 
+## Transistor Swap Threads
+Note: I did not do significant transistor mods using different case format or change the power transistors.
 
-* Both point to using lower MHz bandwidth TO-3 case chips 
-
-* Suggested this is a bad idea: [https://audiokarma.org/forums/index.php?threads/replacement-for-2sc1116a-replacement-of-mj15011.904877/#post-13718073](https://audiokarma.org/forums/index.php?threads/replacement-for-2sc1116a-replacement-of-mj15011.904877/#post-13718073) 
-  because the feedback design expects higher bandwidth. Replacements 
-  4MHz vs 10 and 15 MHz bandwidth. 
-
-* Rather change to newer TO-3P format 
-
-* {text:soft-page-break} 2SC945 (Q, P) Transistor is center 
-  collector 
-
-
-
-AnalogueBen in AudioKarma: 883773 recommended parts list: 
-
-* [https://www.vintageshifi.com/repertoire-pdf/m-Sansui.php](https://www.vintageshifi.com/repertoire-pdf/m-Sansui.php) 
-  points to: 
-
-* transistor equivalents: [https://www.vintageshifi.com/sansui-au-717.php](https://www.vintageshifi.com/sansui-au-717.php) 
-  saved as audio.sansui.amp_rebuild.au717.specifications_and_transistor_equivalents.odt 
-
-* service manual: points to [https://www.vintageshifi.com/repertoire-pdf/pdf/telecharge.php?pdf=Sansui-AU-517-AU-717-Service-Manual.pdf](https://www.vintageshifi.com/repertoire-pdf/pdf/telecharge.php?pdf=Sansui-AU-517-AU-717-Service-Manual.pdf) 
+* [Sansui transistor substitution collection](https://audiokarma.org/forums/index.php?threads/once-more-sansui-transistor-substitutions.583009/)
+* [Sansui AU-717 transistors](https://audiokarma.org/forums/index.php?threads/sansui-au-717-transistors.261681/)
+* Both links above point to using lower MHz bandwidth TO-3 case chips
+  * 2sa747 = Very nearly unobtanium - beware of counterfeits - suggested replacement MJ21193 = Digikey
+  * 2sc1116 = Very nearly unobtanium - beware of counterfeits - suggested replacement MJ21194 = Digikey
+  * [Others suggest this is a bad idea](https://audiokarma.org/forums/index.php?threads/replacement-for-2sc1116a-replacement-of-mj15011.904877/#post-13718073) because the feedback design expects higher bandwidth. Replacements 4MHz vs 10 and 15 MHz bandwidth. 
+* Rather change to newer TO-3P format
+  * [How to swap transistor type here](https://audiokarma.org/forums/index.php?threads/ba-f1-on-the-bench-first-look-here-we-go.880419/)
+  * [updated transistor list](https://audiokarma.org/forums/index.php?threads/once-more-sansui-transistor-substitutions.583009/page-6#post-13449355)
+    * Points to 2SA1695 and 2SC4468 which seem plausable replacements, digikey even if form factor is dumb
+* 2SC945 (Q, P) Transistor is center collector
+  * the KSC945CYTA is also center collector by on semiconductor
+  * [per](https://audiokarma.org/forums/index.php?threads/sansui-au-717-transistors.261681/)
+* [transistor equivalents](https://www.vintageshifi.com/sansui-au-717.php); saved as audio.sansui.amp_rebuild.au717.specifications_and_transistor_equivalents.odt 
 
 
-
-AudioKarma Recommendations per lock.audio.sansui.amp_rebuild.au717.restore_via_audiokarma_supernoob-summary.docx 
-
-* there are a number of typo errors, verify the parts 
-
+# F-2663
 * disassembly: F-2663: Power supply servicing tip - desolder 
   6 power supply leads from the bottom of board, remove the mount 
   brackets, and the board can be pulled forward for rebuilding. 
-  (edit: had to remove many more wires than this!) 
+  (edit: had to remove many more wires than this!) per SuperNoob Reference
 
-
+## Other Build Guides
 
 AudioKarma Recommendations per audio.sansui.amp_rebuild.txt: 
 
