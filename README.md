@@ -61,47 +61,8 @@ Film Capacitor
   the conducting electrodes of the capacitor. 
 
 
-
-Ceramic capacitors 
-
-* somewhat non-linear in their frequency and voltage responses, 
-  compared to film capacitors. 
-
-* tend to behave as microphones, thus picking up ambient sound 
-  and modulating the voltage across them accordingly. 
-
-
-
-Identifying capacitors: [https://studyelectrical.com/2016/12/different-types-classification-of-capacitors.html](https://studyelectrical.com/2016/12/different-types-classification-of-capacitors.html) 
-
-* non-polarized capacitors: Ceramic and Film capacitors 
-
-* {draw:frame} {text:soft-page-break} polarized capacitors: 
-  Electrolytic and Super Capacitors 
-
-
-
-Resistors 
-
-* Metal film less noisy than carbon film 
-
-* smaller PPM means smaller temperature change per degree C 
-
-
-
-Diodes 
-
-* audio.sansui.amp_rebuild.au717.diode_replacement.odt 
-
-* Toshiba 1S1588 = ROHM 1S2473 
-
-* 1S2227 = international rectifier 10D2 
-
-* IR 10D1 = 10D1 (1S2226) 1A 
-
-
-
 Rebuild Plan Parts Suggestions 
+-------
 
 parts list [https://audiokarma.org/forums/index.php?threads/project-sansui-au-717-restore-rebuild.893233/](https://audiokarma.org/forums/index.php?threads/project-sansui-au-717-restore-rebuild.893233/) 
 references supernoob build 
