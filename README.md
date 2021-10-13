@@ -49,24 +49,44 @@ Parts.md = general information about electrical parts
 # Sansui AU-717 Rebuild Plans and Online Guides
 
 ## References
-1. LeeStereo Build Thread
-1. SuperNoob Build Thread
-  * there are a number of typo errors, verify the parts 
-  * saved as audio.sansui.amp_rebuild.au717.restore_via_audiokarma_supernoob-summary.docx
-1. AnalogueBen in AudioKarma: 883773 recommended parts list
+Many of the references are summarized in howto_reference_guide_notes.md
+
+1. [LeeStereo Build Thread](https://audiokarma.org/forums/index.php?threads/leestereos-restoration-upgrade-of-a-sansui-au-717.641945/page-1)
+   * Leestereo (his name is Ben) is _the reference build_
+   * build referenced by SuperNoob 
+   * Ref: LeeStereo
+3. SuperNoob Build Thread
+   * there are a number of typo errors, verify the parts 
+   * Ref [SuperNoobA](https://audiokarma.org/forums/index.php?threads/project-sansui-au-717-restore-rebuild.893233/)
+     * see summary: audio.sansui.amp_rebuild.au717.restore_via_audiokarma_supernoob-summary.docx
+   * Ref [SuperNoobB](https://www.audiokarma.org/forums/index.php?threads/project-sansui-au-717-bks.896463/)
+4. [MIJ_Pioneer](https://audiokarma.org/forums/index.php?threads/au-717-recap.903438/)
+   * References LeeStereo and SuperNoob
+6. [marantzhallo-fi Build Page](https://marantzhallo-fi.blogspot.com/2017/04/chris-justins-sansui-au-717-restoration.html)
+   * Ref: marantzhallo-fi
+7. Hallman Labs AU-517 Restoration
+   * AU-517 focused, but the AU-517 and AU-717 are very similar
+   * [newer content? Re-Cap Its Alive](https://hallmanlabs.com/2019/03/10/sansui-au-517-complete-re-cap-restoration-its-alive/)
+   * [related or sub-thread: Complete Restoration](https://hallmanlabs.com/sansui-au-517-complete-restoration/)
+8. AnalogueBen in AudioKarma: 883773 recommended parts list
 
 ## Manuals and Specifications References
-* 
+* [http://www.hifiengine.com](http://www.hifiengine.com) is the best source for user and service manuals.
 * [https://www.vintageshifi.com/repertoire-pdf/m-Sansui.php](https://www.vintageshifi.com/repertoire-pdf/m-Sansui.php) has transistor replacement table and [AU-717 Service Manual at VintageHifi](https://www.vintageshifi.com/repertoire-pdf/pdf/telecharge.php?pdf=Sansui-AU-517-AU-717-Service-Manual.pdf)
-  
 
-## Rebuild Plan Parts Suggestions 
+## Rebuild Plan Parts Suggestions
 
-parts list [https://audiokarma.org/forums/index.php?threads/project-sansui-au-717-restore-rebuild.893233/](https://audiokarma.org/forums/index.php?threads/project-sansui-au-717-restore-rebuild.893233/) 
-references supernoob build 
+### Bill of Materials
+Many lists and rebuild work are build off LeeStereo post
+* Ref SuperNoobA parts list 
+* Ref LeeStereo thread Different BOM lists:
+  * post 174 (jwjarch)
+  * post 249 (toneriderMUC@Mouser named au717)
+  * post 262 (daviddi922@Mouser named Sansui Au717)
+  * post 382 newer build
+* Parts: Run Tabula on audio.sansui.au-517_717_service_manual_en_imp_scan.pdf to pull out values
 
-
-## Transistor Swap Threads
+### Transistor Swap Threads
 Note: I did not do significant transistor mods using different case format or change the power transistors.
 
 * [Sansui transistor substitution collection](https://audiokarma.org/forums/index.php?threads/once-more-sansui-transistor-substitutions.583009/)
@@ -84,275 +104,74 @@ Note: I did not do significant transistor mods using different case format or ch
   * [per](https://audiokarma.org/forums/index.php?threads/sansui-au-717-transistors.261681/)
 * [transistor equivalents](https://www.vintageshifi.com/sansui-au-717.php); saved as audio.sansui.amp_rebuild.au717.specifications_and_transistor_equivalents.odt 
 
+## How To
 
-# F-2663
+### Cleaning 
+
+Glue removal
+* https://audiokarma.org/forums/index.php?threads/my-solution-for-easy-au-717-sansui-glue-removal.508267/#post-6602302
+* spread cotton balls out on/around glue (tucked in good around components)
+* saturate with 1-2 cap fulls of acetone
+* wait 15-20 minutes.
+* I found using an old credit card as a scraper or a flat exacto knife blade but metal can scar the board
+
+Super dirty cleaning advice: https://audiokarma.org/forums/index.php?threads/new-member-really-dirty-au-717-need-advice.514913/
+
+Rebuild thread with photos: https://audiokarma.org/forums/index.php?threads/sansui-au-717-restoration-and-upgrade.875646/
+* remove, clean, and give new thermal compound for transistors
+
+Switch cleaning threads:
+* do not use Windex or WD40
+* https://audiokarma.org/forums/index.php?threads/sansui-au-717-volume-control-pot-maitenence-help-please.43185/#post-594781
+* https://audiokarma.org/forums/index.php?threads/deoxit-d5.947097/#post-14504688
+  * skywatcher: But it is mainly for switches and not pots. I clean pots with D5, then use FaderLube (F5). He prefers . But I much prefer CRC QD or MG Chemicals no-residue cleaners. 
+  * Cleaning video: https://youtu.be/_3gSIeEzOZM 
+* https://audiokarma.org/forums/index.php?threads/the-idiots-guide-to-using-deoxit-revisited.207005/
+  * great thread with lots of info on disassembly and DeOxit use
+  * DeOxit Red stuff clean
+  * DeOxit ProLube or DeOxit GOLD, to lubricate and protect the switches. 
+Polish videos by Hifi Surgery
+* https://audiokarma.org/forums/index.php?threads/sansui-au-717-restoration.970989/page-2#post-15053101 
+* Part 1: https://www.youtube.com/watch?v=ZOxRPpDvTMA
+* Part 2: https://www.youtube.com/watch?v=5TagB6hAWHk 
+
+### Disassembly
+
+#### F-2663
 * disassembly: F-2663: Power supply servicing tip - desolder 
   6 power supply leads from the bottom of board, remove the mount 
   brackets, and the board can be pulled forward for rebuilding. 
   (edit: had to remove many more wires than this!) per SuperNoob Reference
 
-## Other Build Guides
-
-AudioKarma Recommendations per audio.sansui.amp_rebuild.txt: 
-
-* All Electrolytic Caps (including the four main filter caps) 
-  were replaced 
-
-* all VD1212 were replaced with 1N4148 In series 
-
-* all 'black flag' caps were replaced (does he mean stryol??) 
-
-
-
-* All Inter-Stage coupling and filter capacitors replaced 
-  with HQ [high quality?] equivalents. 
-
-* All controls were thoroughly cleaned and noise free. 
-
-* Biased Current and DC output voltage were adjusted to within 
-  specification. 
-
-
-
-audio.sansui.amp_rebuild.au717.restore_via_audiokarma_leestereo.odt 
-
-* Bible build is Leestereo (his name is Ben) build also referenced 
-  by supernoob 
-
-* Replace all power supply electrolytic capacitors with low 
-  ESR types (increasing capacity where appropriate and physically 
-  possible). 
-
-* Replace all of the signal path electrolytic capacitors with 
-  either "audio grade"/bi-polar electrolytic types or film 
-  types (whenever possible). 
-
-* Upgrade original polyester film capacitors to polypropylene 
-  film types (as appropriate ie in signal path). 
-
-* Replace signal path ceramic capacitors with film or C0G types. 
-
-* Replace fuse resistors with metal film types; Fusible resistors 
-  post 171 
-
-* Replace VD1212 (dual diodes) with pair of 1N4148 diodes (in 
-  series). 
-
-* Replace any components damaged by the infamous corrosive 
-  board glue. 
-
-* Capacitor selection general 
-
-* Match power supply resistors post 369 
-
-* The capacitors C05 and C06, on the RIAA equalization. 
-
-* F-2663 board contains 2 independent regulated 35V power supplies 
-  (one for each channel). 
-
-* Identify issues 
-
-* Cleaning 
-
-* Disassembly and Repair General 
-
-* Reassembly 
-
-* Testing and Review 
-
-* Service Manual Parts lists often wrong: Post 235. “sometimes 
-  they are wrong, and sometimes very wrong. Just look at the schematic 
-  - which generally is very close to correct” 
-
-* #379: stock configuration, the film capacitor at C20 is a by-pass 
-  for the electrolytic capacitor at C22. Since the original 
-  posting, subsequent AU-717 restorations have incorporated 
-  upgrades to the stock 0.047µF polyester film by-passes to 
-  0.1µF WIMA polypropylene types, as detailed in [post no. 210](https://audiokarma.org/forums/index.php?threads/leestereos-restoration-upgrade-of-a-sansui-au-717.641945/page-11#post-12690109) 
-  Here is a picture of the installed WIMA MKP by-passes on F-2720. 
-
-* F-2720 C31, C32 are removed because they are no longer needed; 
-  see [https://audiokarma.org/forums/index.php?threads/leestereos-restoration-upgrade-of-a-sansui-au-717.641945/page-17#post-13473487](https://audiokarma.org/forums/index.php?threads/leestereos-restoration-upgrade-of-a-sansui-au-717.641945/page-17#post-13473487) 
-  for why this is done. 
-
-
-
-audio.sansui.amp_rebuild.au717.restore_via_marantzhallo-fi.odt 
-
-* electrolytic were replaced with high temp (105C) long life 
-  FC Panasonic and Nichicon PW capacitors with an increase in 
-  operating voltages. 
-
-* The Bipolars and .47 coupled electrolytic were replaced with 
-  Nichicon VP and high grade WIMA MKP film capacitors. 
-
-* All of the diode bridge 10D1 and 2473 were replaced with Fairchild 
-  4148 and Ultra-Fast UF400# type diodes, all VD1212 type epoxy 
-  diodes were replaced with series Fairchild 4148 diodes. 
-
-* TO-220 voltage regulators which tend to show signs of excessive 
-  heat are replaced with heavy duty OnSemi MJE TO-220 devices 
-  and thermal compound applied. 
-
-* The relay was replaced with a heavy duty low noise type Omron 
-  MY4 relay. 
-
-* Due to excessive glue damage about 15 carbon film resistors 
-  were replaced with KOA carbon film resistors. 
-
-* The solder joints due to excessive heat were reflowed as well. 
-
-* large vertical axial electrolytic capacitors were affixed 
-  to the PCB using a glue 
-
-* Fusible resistor which exhibit two odd characteristics 
-
-* By board is below 
-
-
-
-Glue removal 
-
-* [https://audiokarma.org/forums/index.php?threads/my-solution-for-easy-au-717-sansui-glue-removal.508267/#post-6602302](https://audiokarma.org/forums/index.php?threads/my-solution-for-easy-au-717-sansui-glue-removal.508267/#post-6602302) 
-
-* spread cotton balls out on/around glue (tucked in good around 
-  components) 
-
-* saturate with 1-2 cap fulls of acetone 
-
-* wait 15-20 minutes. 
-
-* I found using an old credit card as a scraper or a flat exacto 
-  knife blade but can scar the board 
-
-
-
-Rebuild thread with photos: [https://audiokarma.org/forums/index.php?threads/sansui-au-717-restoration-and-upgrade.875646/](https://audiokarma.org/forums/index.php?threads/sansui-au-717-restoration-and-upgrade.875646/) 
-
-* remove, clean, and give new thermal compound for transistors 
-
-
-
-Diode replacement: audio.sansui.amp_rebuild.au717.diode_replacement.odt 
-
-* Not recommended to replace power supply diodes except zener 
-  and VD1212 diodes 
-
-* ZD01/02 replace with BZX79-B13, ZD601 1N5232B and ZD602 1N5234C 
-
-* For the VD1212 diodes use two 1N4148's in series for each. 
-
-
-
-Super dirty cleaning advice: [https://audiokarma.org/forums/index.php?threads/new-member-really-dirty-au-717-need-advice.514913/](https://audiokarma.org/forums/index.php?threads/new-member-really-dirty-au-717-need-advice.514913/) 
-
-Switch cleaning threads: 
-
-* do not use Windex or WD40 
-
-* {text:soft-page-break} [https://audiokarma.org/forums/index.php?threads/sansui-au-717-volume-control-pot-maitenence-help-please.43185/#post-594781](https://audiokarma.org/forums/index.php?threads/sansui-au-717-volume-control-pot-maitenence-help-please.43185/#post-594781) 
-
-* [https://audiokarma.org/forums/index.php?threads/deoxit-d5.947097/#post-14504688](https://audiokarma.org/forums/index.php?threads/deoxit-d5.947097/#post-14504688) 
-
-* [https://audiokarma.org/forums/index.php?threads/the-idiots-guide-to-using-deoxit-revisited.207005/](https://audiokarma.org/forums/index.php?threads/the-idiots-guide-to-using-deoxit-revisited.207005/) 
-
-
-
-Polish videos by Hifi Surgery 
-
-* [https://audiokarma.org/forums/index.php?threads/sansui-au-717-restoration.970989/page-2#post-15053101](https://audiokarma.org/forums/index.php?threads/sansui-au-717-restoration.970989/page-2#post-15053101) 
-
-* Part 1: [https://www.youtube.com/watch?v=ZOxRPpDvTMA](https://www.youtube.com/watch?v=ZOxRPpDvTMA) 
-
-* Part 2: [https://www.youtube.com/watch?v=5TagB6hAWHk](https://www.youtube.com/watch?v=5TagB6hAWHk) 
-
-
-
-F-2723 Removal 
-
-* [https://audiokarma.org/forums/index.php?threads/leestereos-restoration-upgrade-of-a-sansui-au-717.641945/page-13#post-13122658](https://audiokarma.org/forums/index.php?threads/leestereos-restoration-upgrade-of-a-sansui-au-717.641945/page-13#post-13122658) 
-
-
-
-F-2670 Removal 
-
-* {text:list-item} {text:list-item} {text:list-item} {text:list-item} 
-  {text:list-item} 
-
-
-
-Parts:
-------
-
-Run Tabula on audio.sansui.au-517_717_service_manual_en_imp_scan.pdf 
-to pull out values 
-
-Power caps 12000 uF 63 V electrolytic capacitor (original part) 
-but others indicate 15,000 uF 
-
-* 40.2 mm x roughly 3.5 inches tall 
-
-* Mouser Nichicon 15000 uF 63 V 20% $20.85 x 4: LKG1J153MKNF KN 
-  means 35|40 mm 
-
-* Mouser Nichicon 22000 uF 63 V 20% $34.20 x 4: LKG1J223MKZ KZ 
-  means 50-76 mm 
-
-* The parts ending in S are better, F is lowest, other middle grade: 
-  [datasheet](https://www.mouser.com/datasheet/2/293/e-lkg-875808.pdf) 
-
-* warning: increase capacitance increases intake current 
-  and could create sonic noise/transformer damage 
-
-* Note that Outlaw Audio 2200 uses 13,600μF capacitance for 
-  HP Rails; 6,600μF for LP Rail 
-
-* Others using Kemet {text:bookmark} ALT22A153DE063 because 
-  long-life, shorter, also cheaper, $15.68 each 
-
-
-
-Lights get from Parts-Express.com for TU-717: [part 070-121 
-LED 8 volt fuse](https://www.parts-express.com/led-fuse-lamp-for-marantz-sansui-kenwood-yamaha-sony-warm-white-8-volt-5-pack--070-121): 
-
-{text:soft-page-break} [Rebuild Kit by hifiaudio](https://www.ebay.com/i/153892666802?chn=ps&norover=1&mkevt=1&mkrid=711-213727-13078-0&mkcid=2&itemid=153892666802&targetid=4580153133025496&device=c&mktype=&googleloc=&poi=&campaignid=403206344&mkgroupid=1224856168411792&rlsatarget=pla-4580153133025496&abcId=9300372&merchantid=51291&msclkid=c598181b3983154a6ec1477b19f73f66) 
-on Ebay: 
-
-> Power / Filter stage caps are those large silver cans mounted 
-> on top of the chassis and sometimes underneath. This restoration 
-> pack will make a huge difference in the sound quality. All the 
-> parts are of high quality Japanese Nichicon / Panasonic / IC / 
-> United Chemi capacitors. 
-
-> 
-
-> Included in this kit: 
-
-> 1. Power/Filter stage capacitors (Nichicon / Panasonic / United 
-> Chemi) electrolytic capacitors. 
-
-> 2. Detailed instruction with colorful images, schematics, 
-> manuals (all of these are in electronic form, I consider these 
-> much better than printed version due to zoom availability). 
-
-> 3. Schematics 
-
-> 4. Complete audio path upgrade with high quality US made (IC) 
-> or Panasonic audio grade film capacitors. 
-
-> 5. Parts for compete recap of all the electrolytic capacitors. 
-
-> 6. Complete recap of all PCBs. 
-
-> 7. Some other parts if your unit requires it. 
-
-> 8. fuse/s 
-
-> 9. Instructions on how to clean the chassis. 
-
-> 10. Instructions on how to clean the faceplate 
-
-> 11. Instructions on how to polish and clean the knobs. 
-
-> 12. Support/help to a reasonable extend in case you need it. (This 
-> is what makes us different from other sellers.) 
+#### F-2723 Removal
+* https://audiokarma.org/forums/index.php?threads/leestereos-restoration-upgrade-of-a-sansui-au-717.641945/page-13#post-13122658
+  * posts 257-260
+  * board F-2723 (EQ) in my restoration and have trouble loosening it.
+  * I want to work "in situ" but still need to pull it out a bit to be able to reach the lower solder spots that are shielded by the chassis.
+  * How do I disengange and remove the two switch shafts? Do I need to unscrew and remove the knobs on the front and also remove the front plate(s) to be able to pull the shafts from the pots? Or is there an easier way? 
+  * Remove the c-clips on each shaft (near the front of the unit) and then the shafts can be extended forward and out of the way. C-clip = tiny metal clips on the backside of the front panel. When you remove them, you can pull out the shafts with knobs and everything else in its place. The knobs do not need to be removed
+  * mark the plastic piece in line with the metal gear hole to remember the orientation
+  * push down on both sides of the c-clip with 2 small screwdrivers to remove it
+  * pull the knob out to slide the extension off the switch actuator
+  * release the connectors (x3) on board, 1 off board at front
+  * be careful of the stiff ribbon wire sets
+#### F-2670 Removal
+  * plastic push-in fasteners holding the 2670 board (pre-main switch PCB) to the rear panel.
+  * Any advice on non-destructively removing the fastener? Or if it has to be destroyed, what do you use to fasten the board back to the rear panel? 
+  * version 1
+    * https://www.audiokarma.org/forums/index.php?threads/au-717-recap.903438/page-4#post-14698794
+    * you melt the glue on the back of the fastener with a little acetone on a cotton ball, you can press on the back of the pin with a small screwdriver to push it out without destroying anything. 
+  * https://audiokarma.org/forums/index.php?threads/sansui-au-717-f2663-psu-protector-board-guidance.944593/#post-14503304
+    * They're called plastic snap rivets, you can buy them, but your originals were re-usable if you had been more careful.
+    * The original assemblers put varnish (or similar) on the back of the rivets which made them difficult i.e. not obvious how to remove them, all you had to do was push out the rivet shaft from the back, I found that putting IPA or even flux cleaner on the rivets loosened the varnish. Here is a link,
+https://uk.farnell.com/tr-fastening...342242&searchref=searchlookahead&exaMfpn=true
+    * You may know that Farnell are affiliated with Newark - https://www.newark.com/
+  * version 2
+    * https://www.audiokarma.org/forums/index.php?threads/au-717-recap.903438/page-4#post-14698871 
+    * Yes, I don't remove them.  With the amps out, I desolder the board from the RCA jacks. Then when done with the board, simply resolder it. 
+    * Addendum: yes but you are likely to break the ground pins trying to unfold them (¾ broke; fixed with copper band tying the grounds together and soldering with amp on back panel to pull solder down onto broken tabs. Also added copper ties between each pin pad.)
+
+
+
+
+------------------------------------------------
