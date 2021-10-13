@@ -23,6 +23,7 @@ Parts.md = general information about electrical parts
 ### Replacement Parts and a Plan
 * See below for plan
 * Parts list used. [TODO add reference]()
+* source of the parts list outlined in Bill of Materials section below
 
 ### Tools
 * wrap all but the tip of a small screwdriver with electrical tape to use to adjust amp offset and bias
@@ -33,16 +34,17 @@ Parts.md = general information about electrical parts
 * soldering iron
 * solder sucker and/or copper mesh
 * brass ball to clean solder tip
-* jewelers headset to 
+* good lighting and jewelers headset to review solder joints
 
 ### Chemicals/Materials
 * water
 * isopropyl alcohol
+* non-acetone nail polish remover = ethyl acetate for glue removal
 * thermal paste
 * cotton balls
 * small fuel line to replace tubing on leads of vibration susceptible parts
 * heat shrink
-* aluminum foil and cardboard scraps
+* aluminum foil and cardboard scraps to protect heat sensitive parts
 * solder
 * solder flux
 
@@ -53,16 +55,23 @@ Many of the references are summarized in howto_reference_guide_notes.md
 
 1. [LeeStereo Build Thread](https://audiokarma.org/forums/index.php?threads/leestereos-restoration-upgrade-of-a-sansui-au-717.641945/page-1)
    * Leestereo (his name is Ben) is _the reference build_
-   * build referenced by SuperNoob 
+   * AudioKarma member build thread referenced by SuperNoob and many others
    * Ref: LeeStereo
 3. SuperNoob Build Thread
-   * there are a number of typo errors, verify the parts 
+   * AudioKarma member build thread
+   * Thread includes replacement part numbers used and reference photographs
+   * There are a number of typo errors, verify the parts 
    * Ref [SuperNoobA](https://audiokarma.org/forums/index.php?threads/project-sansui-au-717-restore-rebuild.893233/)
      * see summary: audio.sansui.amp_rebuild.au717.restore_via_audiokarma_supernoob-summary.docx
    * Ref [SuperNoobB](https://www.audiokarma.org/forums/index.php?threads/project-sansui-au-717-bks.896463/)
 4. [MIJ_Pioneer](https://audiokarma.org/forums/index.php?threads/au-717-recap.903438/)
-   * References LeeStereo and SuperNoob
+   * AudioKarma member build thread References LeeStereo and SuperNoob
+   * Thread includes replacement part numbers used and reference photographs
+   * Ref MIJ_Pioneer
 6. [marantzhallo-fi Build Page](https://marantzhallo-fi.blogspot.com/2017/04/chris-justins-sansui-au-717-restoration.html)
+   * Single webpage restoration overview with high-quality photos
+   * Includes high-level descriptive operation and parts list content
+   * Includes post rebuild noise performance measurements
    * Ref: marantzhallo-fi
 7. Hallman Labs AU-517 Restoration
    * AU-517 focused, but the AU-517 and AU-717 are very similar
@@ -110,10 +119,13 @@ Note: I did not do significant transistor mods using different case format or ch
 
 Glue removal
 * https://audiokarma.org/forums/index.php?threads/my-solution-for-easy-au-717-sansui-glue-removal.508267/#post-6602302
+* solvent: Can use acetone, isopropyl alcohol, ethyl acetate
+  * concerns about acetone being agreesive, see [LeeStereo 351](https://audiokarma.org/forums/index.php?threads/leestereos-restoration-upgrade-of-a-sansui-au-717.641945/page-18#post-13740628)
+  * I used ethyl acetate - less aggressive
 * spread cotton balls out on/around glue (tucked in good around components)
-* saturate with 1-2 cap fulls of acetone
-* wait 15-20 minutes.
-* I found using an old credit card as a scraper or a flat exacto knife blade but metal can scar the board
+* Saturate with 1-2 cap fulls of solvent
+* Wait 15-20 minutes.
+* I found using an old credit card as a scraper (cut down to fit smaller spaces) or a flat exacto knife blade but metal can scar the board
 
 Super dirty cleaning advice: https://audiokarma.org/forums/index.php?threads/new-member-really-dirty-au-717-need-advice.514913/
 
@@ -121,6 +133,7 @@ Rebuild thread with photos: https://audiokarma.org/forums/index.php?threads/sans
 * remove, clean, and give new thermal compound for transistors
 
 Switch cleaning threads:
+* TODO add in other reference slide items
 * do not use Windex or WD40
 * https://audiokarma.org/forums/index.php?threads/sansui-au-717-volume-control-pot-maitenence-help-please.43185/#post-594781
 * https://audiokarma.org/forums/index.php?threads/deoxit-d5.947097/#post-14504688
