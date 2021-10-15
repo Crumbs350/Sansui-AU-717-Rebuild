@@ -1,6 +1,5 @@
-# Sansui AU-717 Replacement Parts list Cross-Reference
+# Sansui AU-717 Replacement Parts List Cross-Reference
 This page describes the worksheets and logic that went into merging the different published part bill of materials, and tracking the replacement of parts.
-
 
 The bill of materials I used and tracking of the parts I replaced is in [audio.sansui.au-717.parts_list.ods](audio.sansui.au-717.parts_list.ods) with worksheets defined as:
 
