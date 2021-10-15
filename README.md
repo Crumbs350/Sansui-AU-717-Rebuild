@@ -86,14 +86,18 @@ Many of the references are summarized in howto_reference_guide_notes.md
 ## Rebuild Plan Parts Suggestions
 
 ### Bill of Materials
-Many lists and rebuild work are build off LeeStereo post
+I merged the bill of materials (BOM) lists listed here. The BOM I used and tracking of the parts I replaced is in file [audio.sansui.au-717.parts_list.ods](audio.sansui.au-717.parts_list.ods) with [parts_replaced_readme.md](parts_replaced_readme.md) serving as a descriptive readme of each worksheet.
+
+History: Many lists and rebuild work are built off LeeStereo post.
 * Ref SuperNoobA parts list 
 * Ref LeeStereo thread Different BOM lists:
   * post 174 (jwjarch)
   * post 249 (toneriderMUC@Mouser named au717)
   * post 262 (daviddi922@Mouser named Sansui Au717)
   * post 382 newer build
-* Parts: Run Tabula on audio.sansui.au-517_717_service_manual_en_imp_scan.pdf to pull out values
+* Parts: Run Tabula on audio.sansui.au-517_717_service_manual_en_imp_scan.pdf to pull out values from tables
+  * this was a messy export
+  * the data was then partially cleaned
 
 ### Transistor Swap Threads
 Note: I did not do significant transistor mods using different case format or change the power transistors.
