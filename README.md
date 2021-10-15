@@ -177,7 +177,7 @@ Consolidation of specific how tos representative in whole (or part) of what I di
   * [drill method (not recommended)](http://www.cdkands.com/AU717-7.html)
 * Search Skywatcher #282 in [howto_reference_guide_notes.md](howto_reference_guide_notes.md) for suggestion on more extreme disassembly and cleaning using brush and water of parts
 
-### Disassembly
+### Disassembly and Specific Actions
 
 Preference is to work on the boards in situ whenever possible.
 
@@ -196,7 +196,7 @@ Preference is to work on the boards in situ whenever possible.
 * you can disconnect the PCB from the heatsink but you do not have to remove the wired transistor connection during PCB work if you are careful
 * remove the corrosive glue from these boards
 
-#### F-2723 Removal
+#### F-2723
 * https://audiokarma.org/forums/index.php?threads/leestereos-restoration-upgrade-of-a-sansui-au-717.641945/page-13#post-13122658
   * posts 257-260
   * board F-2723 (EQ) in my restoration and have trouble loosening it.
@@ -213,7 +213,7 @@ Preference is to work on the boards in situ whenever possible.
 #### F-2720
 * no disassembly required, all work done in-situ
 
-#### F-2670 Removal
+#### F-2670
 * plastic push-in fasteners holding the 2670 board (pre-main switch PCB) to the rear panel.
 * Advice on non-destructively removing the fastener? Or if it has to be destroyed, what do you use to fasten the board back to the rear panel? 
   * version 1: Remove the plastic push-in fasteners
