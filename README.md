@@ -2,7 +2,15 @@
 Consolidated documentation of a Sansui AU-717 integrated amplifier rebuild.  This is a non-code project focused on documentation, methods, tools, and parts needed to revitalize a Sansui AU-717. Documentation generated during my journey to rebuild this classic integrated amplifer with the help of the Audiokarma.org community and broader web resources.
 
 # Repository Index
-Parts.md = general information about electrical parts
+File | Description
+---- | -----------
+README.md | this file; contains references and general overview guide
+audio.sansui.au-717.parts_list.ods | bill of materials and tracking of parts replaced, see [BOM](#bill-of-materials) below for more context
+parts_replaced_readme.md | explains [audio.sansui.au-717.parts_list.ods](audio.sansui.au-717.parts_list.ods) worksheets
+parts.md | general information about electrical parts (non-exhaustive) focused on audio quality
+howto_reference_guide_notes.md | many reference notes mostly from audio karma threads, see [References](#references) below for descriptions
+howto_general.md | <li>covers soldering, desoldering tips and issues.</li><li>Covers transistor replacement matching methods</li>
+license.txt | legal stuff, rules for sharing
 
 # Sansui AU-717 Rebuild General Information
 
@@ -17,6 +25,14 @@ Parts.md = general information about electrical parts
   * attached labels to removed parts
   * mark wire colors on diagrams, and label wires if possible to get them confused with other connections
 * Always use a dim bulb tester after each repair when applying power the first time
+  * restricts current for short to ground
+  * bulb wired in series to unit power
+  * if bulb shines bright you have a short, if it dims over time you don't
+  * Note: this may not work with non-incandescent (read non-resistive load) bulbs
+  * References: 
+    * [overview](https://antiqueradio.org/dimbulb.htm)
+    * [instructable](https://www.instructables.com/Vintage-Dim-Bulb-Tester/)
+    * [bulb wattage](https://audiokarma.org/forums/index.php?threads/dim-bulb-tester-what-watt-bulb.330103/)
 
 ## What you need for the job
 
@@ -27,7 +43,7 @@ Parts.md = general information about electrical parts
 
 ### Tools
 * wrap all but the tip of a small screwdriver with electrical tape to use to adjust amp offset and bias
-* dim build tester [TODO: add reference]() to test for shorts after work
+* [dim build tester](https://antiqueradio.org/dimbulb.htm) to test for shorts after work
 * cut credit card = PCB safe scrapper
 * gloves
 * fan - use to extract/disperse fumes
@@ -116,7 +132,11 @@ I did not do significant transistor mods using different case format or change t
 * 2SC945 (Q, P) Transistor is center collector
   * the KSC945CYTA is also center collector by on semiconductor
   * [per](https://audiokarma.org/forums/index.php?threads/sansui-au-717-transistors.261681/)
-* [transistor equivalents](https://www.vintageshifi.com/sansui-au-717.php); saved as audio.sansui.amp_rebuild.au717.specifications_and_transistor_equivalents.odt 
+* [transistor equivalents](https://www.vintageshifi.com/sansui-au-717.php); saved as audio.sansui.amp_rebuild.au717.specifications_and_transistor_equivalents.odt
+
+### Other Modifications
+I did not do these
+* [Binding Post Modification](https://www.stereo.net.au/forums/topic/48612-binding-post-modification-for-a-sansui-au717-amplifier/)
 
 ## How To
 Consolidation of specific how tos representative in whole (or part) of what I did, based on [reference content ](howto_reference_guide_notes.md) or other specific references as mentioned below.
@@ -153,7 +173,6 @@ Consolidation of specific how tos representative in whole (or part) of what I di
 * Note I used a old credit card or razor blade to spread new compound
 
 #### Control (Switch/Potentiometer) cleaning threads:
-* TODO add in other reference slide items
 * What chemical?
   * I ended up just using DeOxit-F5 on potentiometers and switches (not yet)
   * **do not use Windex or WD40**
