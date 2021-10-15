@@ -1,12 +1,12 @@
 # Sansui-AU-717-Rebuild
-Consolidated documentation of Sansui AU-717 Rebuild.  This is a non-code project focused on documentation, methods, tools, and parts needed to revitalize a Sansui AU-717. Documentation generated during my journey to rebuild this classic integrated amplifer with the help of the Audiokarma.org community and broader web resources.
+Consolidated documentation of a Sansui AU-717 integrated amplifier rebuild.  This is a non-code project focused on documentation, methods, tools, and parts needed to revitalize a Sansui AU-717. Documentation generated during my journey to rebuild this classic integrated amplifer with the help of the Audiokarma.org community and broader web resources.
 
 # Repository Index
 Parts.md = general information about electrical parts
 
 # Sansui AU-717 Rebuild General Information
 
-## Prep for Success
+## Preparation for Success
 * Read and understand what you are doing before you start
 * Document the process
   * Take pictures
@@ -21,9 +21,9 @@ Parts.md = general information about electrical parts
 ## What you need for the job
 
 ### Replacement Parts and a Plan
-* See below for plan
-* Parts list used. [TODO add reference]()
-* source of the parts list outlined in Bill of Materials section below
+* [See below for plan](#sansui au-717 rebuild plans and online guides)
+* [Parts list used](parts_replaced_readme.md)
+* source of the parts list outlined in [Bill of Materials](#bill of materials) section below
 
 ### Tools
 * wrap all but the tip of a small screwdriver with electrical tape to use to adjust amp offset and bias
@@ -88,7 +88,7 @@ Many of the references are summarized in howto_reference_guide_notes.md
 ### Bill of Materials
 I merged the bill of materials (BOM) lists listed here. The BOM I used and tracking of the parts I replaced is in file [audio.sansui.au-717.parts_list.ods](audio.sansui.au-717.parts_list.ods) with [parts_replaced_readme.md](parts_replaced_readme.md) serving as a descriptive readme of each worksheet.
 
-History: Many lists and rebuild work are built off LeeStereo post.
+History: Many lists and rebuild work are built off LeeStereo post. The BOMs listed below come from the references above.
 * Ref SuperNoobA parts list 
 * Ref LeeStereo thread Different BOM lists:
   * post 174 (jwjarch)
@@ -98,9 +98,10 @@ History: Many lists and rebuild work are built off LeeStereo post.
 * Parts: Run Tabula on audio.sansui.au-517_717_service_manual_en_imp_scan.pdf to pull out values from tables
   * this was a messy export
   * the data was then partially cleaned
+  * honestly you get a better list by manually reviewing the schematic
 
 ### Transistor Swap Threads
-Note: I did not do significant transistor mods using different case format or change the power transistors.
+I did not do significant transistor mods using different case format or change the power transistors. There is a lot of concern in the community about unobtanium parts if yours are bad, this content provided if you intend to investigate modern updates and avoid the perilious second-hand market full of fake parts. Some links refer to *trustworthy* sources but these references are often old or the sources are out of supply by now. *If* I had needed to do this I would have likely done the TO-3P format mod. Caveat emptor reigns and I am not responsible for damage you do if you follow these threads.
 
 * [Sansui transistor substitution collection](https://audiokarma.org/forums/index.php?threads/once-more-sansui-transistor-substitutions.583009/)
 * [Sansui AU-717 transistors](https://audiokarma.org/forums/index.php?threads/sansui-au-717-transistors.261681/)
@@ -118,64 +119,104 @@ Note: I did not do significant transistor mods using different case format or ch
 * [transistor equivalents](https://www.vintageshifi.com/sansui-au-717.php); saved as audio.sansui.amp_rebuild.au717.specifications_and_transistor_equivalents.odt 
 
 ## How To
+Consolidation of specific how tos representative in whole (or part) of what I did, based on [reference content ](howto_reference_guide_notes.md) or other specific references as mentioned below.
+
+* If you prefer videos over reading: Polish videos by Hifi Surgery cover major parts of the process
+  * https://audiokarma.org/forums/index.php?threads/sansui-au-717-restoration.970989/page-2#post-15053101 
+  * Part 1: https://www.youtube.com/watch?v=ZOxRPpDvTMA
+  * Part 2: https://www.youtube.com/watch?v=5TagB6hAWHk 
+* Pay attention to vibration and heat sensitive part instructions
+  * polystyrene film capacitors are solvent and heat sensitive (solder with a heat sink attached to the leads).
+  * I used 2 mm heatshrink on the leads with aluminum foil wrap to distribute the heat during heat gun application, then slide 3 mm fuel hose over that so the capacitor has longer leads for soldering and is supported to avoid vibration. Also necessary because could only find axial part to replace the original
 
 ### Cleaning 
 
-Glue removal
+#### General Cleaning
+* Super dirty cleaning advice: https://audiokarma.org/forums/index.php?threads/new-member-really-dirty-au-717-need-advice.514913/
+* Rebuild thread with photos: https://audiokarma.org/forums/index.php?threads/sansui-au-717-restoration-and-upgrade.875646/
+  * remove, clean, and give new thermal compound for transistors
+
+#### Glue Removal
 * https://audiokarma.org/forums/index.php?threads/my-solution-for-easy-au-717-sansui-glue-removal.508267/#post-6602302
 * solvent: Can use acetone, isopropyl alcohol, ethyl acetate
-  * concerns about acetone being agreesive, see [LeeStereo 351](https://audiokarma.org/forums/index.php?threads/leestereos-restoration-upgrade-of-a-sansui-au-717.641945/page-18#post-13740628)
-  * I used ethyl acetate - less aggressive
+  * concerns about acetone being agressive, see [LeeStereo 351](https://audiokarma.org/forums/index.php?threads/leestereos-restoration-upgrade-of-a-sansui-au-717.641945/page-18#post-13740628), it affects some plastics
+  * I used ethyl acetate - less aggressive solvent
 * spread cotton balls out on/around glue (tucked in good around components)
 * Saturate with 1-2 cap fulls of solvent
 * Wait 15-20 minutes.
-* I found using an old credit card as a scraper (cut down to fit smaller spaces) or a flat exacto knife blade but metal can scar the board
+* Scrape off
+  * used an old (or postal trash) credit card as a scraper (cut down to fit smaller spaces)
+  * flat exacto knife blade but metal can scar the board
 
-Super dirty cleaning advice: https://audiokarma.org/forums/index.php?threads/new-member-really-dirty-au-717-need-advice.514913/
+#### Thermal Grease
+* Clean old dried thermal grease with alcohol and a soft cloth
+* Note I used a old credit card or razor blade to spread new compound
 
-Rebuild thread with photos: https://audiokarma.org/forums/index.php?threads/sansui-au-717-restoration-and-upgrade.875646/
-* remove, clean, and give new thermal compound for transistors
-
-Switch cleaning threads:
+#### Control (Switch/Potentiometer) cleaning threads:
 * TODO add in other reference slide items
-* do not use Windex or WD40
-* https://audiokarma.org/forums/index.php?threads/sansui-au-717-volume-control-pot-maitenence-help-please.43185/#post-594781
-* https://audiokarma.org/forums/index.php?threads/deoxit-d5.947097/#post-14504688
-  * skywatcher: But it is mainly for switches and not pots. I clean pots with D5, then use FaderLube (F5). He prefers . But I much prefer CRC QD or MG Chemicals no-residue cleaners. 
-  * Cleaning video: https://youtu.be/_3gSIeEzOZM 
+* What chemical?
+  * I ended up just using DeOxit-F5 on potentiometers and switches (not yet)
+  * **do not use Windex or WD40**
+  * DeOxit-D5 vs DeOxit-F5
+    * the core difference is F5 contains lubrication
+    * when to use [public recommendation](https://audiokarma.org/forums/index.php?threads/speakers-cutting-in-and-out.967652/#post-15028481)
+       * D5 for switches (metal / metal contacts)
+       * F5 for potentiometers
+    * Caig, DeOxit maker says F5 okay for some switches
+  * DeOxit-D5
+    * [ref](https://audiokarma.org/forums/index.php?threads/deoxit-d5.947097/#post-14504688)
+    * skywatcher: But it is mainly for switches and not pots. I clean pots with D5, then use FaderLube (F5). He prefers CRC QD or MG Chemicals no-residue cleaners.  
+* [Idiots Guide to Using DeOxit](https://audiokarma.org/forums/index.php?threads/the-idiots-guide-to-using-deoxit-revisited.207005/)
+* Cleaning video: https://youtu.be/_3gSIeEzOZM 
 * https://audiokarma.org/forums/index.php?threads/the-idiots-guide-to-using-deoxit-revisited.207005/
   * great thread with lots of info on disassembly and DeOxit use
   * DeOxit Red stuff clean
   * DeOxit ProLube or DeOxit GOLD, to lubricate and protect the switches. 
-Polish videos by Hifi Surgery
-* https://audiokarma.org/forums/index.php?threads/sansui-au-717-restoration.970989/page-2#post-15053101 
-* Part 1: https://www.youtube.com/watch?v=ZOxRPpDvTMA
-* Part 2: https://www.youtube.com/watch?v=5TagB6hAWHk 
+* clean/lubricate volume control:
+  * [partial dissembly method](https://audiokarma.org/forums/index.php?threads/sansui-au-717-volume-control-pot-maitenence-help-please.43185/#post-594781)
+  * [drill method (not recommended)](http://www.cdkands.com/AU717-7.html)
+* Search Skywatcher #282 in [howto_reference_guide_notes.md](howto_reference_guide_notes.md) for suggestion on more extreme disassembly and cleaning using brush and water of parts
 
 ### Disassembly
 
+Preference is to work on the boards in situ whenever possible.
+
 #### F-2663
-* disassembly: F-2663: Power supply servicing tip - desolder 
-  6 power supply leads from the bottom of board, remove the mount 
-  brackets, and the board can be pulled forward for rebuilding. 
-  (edit: had to remove many more wires than this!) per SuperNoob Reference
+* disassembly: F-2663: Power supply servicing tip per SuperNoob Reference
+  1. desolder 6 power supply leads from the bottom of board (edit: had to remove many more wires than this to make everything accessible for cleaning!) 
+  2. remove the mount brackets
+  3. the board can be pulled forward for rebuilding
+* even when disconnected so the board is free the relay will still catch on the chassis, you must careful rotate to remove
+* remove the corrosive glue from this board
+
+#### F-2721/F-2722
+* mark wire color positions on schematic
+* pull plastic wire tubes off contacts and disconnect multi-pin plastic connector
+* remove 4 chassis mounting screws
+* you can disconnect the PCB from the heatsink but you do not have to remove the wired transistor connection during PCB work if you are careful
+* remove the corrosive glue from these boards
 
 #### F-2723 Removal
 * https://audiokarma.org/forums/index.php?threads/leestereos-restoration-upgrade-of-a-sansui-au-717.641945/page-13#post-13122658
   * posts 257-260
   * board F-2723 (EQ) in my restoration and have trouble loosening it.
-  * I want to work "in situ" but still need to pull it out a bit to be able to reach the lower solder spots that are shielded by the chassis.
-  * How do I disengange and remove the two switch shafts? Do I need to unscrew and remove the knobs on the front and also remove the front plate(s) to be able to pull the shafts from the pots? Or is there an easier way? 
-  * Remove the c-clips on each shaft (near the front of the unit) and then the shafts can be extended forward and out of the way. C-clip = tiny metal clips on the backside of the front panel. When you remove them, you can pull out the shafts with knobs and everything else in its place. The knobs do not need to be removed
-  * mark the plastic piece in line with the metal gear hole to remember the orientation
-  * push down on both sides of the c-clip with 2 small screwdrivers to remove it
-  * pull the knob out to slide the extension off the switch actuator
+  * To work "in situ" on lower solder spots that are shielded by the chassis must lossen but not remove the board.
+  * How do I disengange and remove the two switch shafts?
+    * mark the plastic piece in line with the metal gear hole to remember the orientation
+    * Remove the c-clips on each shaft (near the front of the unit) and then the shafts can be extended forward and out of the way.
+      * C-clip = tiny metal clips on the backside of the front panel. When you remove them, you can pull out the shafts with knobs and everything else in its place. The knobs do not need to be removed
+      * push down on both sides of the c-clip with 2 small screwdrivers to remove it
+    * pull the knob out to slide the extension off the switch actuator
   * release the connectors (x3) on board, 1 off board at front
-  * be careful of the stiff ribbon wire sets
+  * be careful of the stiff ribbon wire sets while you work on the board
+
+#### F-2720
+* no disassembly required, all work done in-situ
+
 #### F-2670 Removal
-  * plastic push-in fasteners holding the 2670 board (pre-main switch PCB) to the rear panel.
-  * Any advice on non-destructively removing the fastener? Or if it has to be destroyed, what do you use to fasten the board back to the rear panel? 
-  * version 1
+* plastic push-in fasteners holding the 2670 board (pre-main switch PCB) to the rear panel.
+* Advice on non-destructively removing the fastener? Or if it has to be destroyed, what do you use to fasten the board back to the rear panel? 
+  * version 1: Remove the plastic push-in fasteners
     * https://www.audiokarma.org/forums/index.php?threads/au-717-recap.903438/page-4#post-14698794
     * you melt the glue on the back of the fastener with a little acetone on a cotton ball, you can press on the back of the pin with a small screwdriver to push it out without destroying anything. 
   * https://audiokarma.org/forums/index.php?threads/sansui-au-717-f2663-psu-protector-board-guidance.944593/#post-14503304
@@ -183,12 +224,10 @@ Polish videos by Hifi Surgery
     * The original assemblers put varnish (or similar) on the back of the rivets which made them difficult i.e. not obvious how to remove them, all you had to do was push out the rivet shaft from the back, I found that putting IPA or even flux cleaner on the rivets loosened the varnish. Here is a link,
 https://uk.farnell.com/tr-fastening...342242&searchref=searchlookahead&exaMfpn=true
     * You may know that Farnell are affiliated with Newark - https://www.newark.com/
-  * version 2
-    * https://www.audiokarma.org/forums/index.php?threads/au-717-recap.903438/page-4#post-14698871 
-    * Yes, I don't remove them.  With the amps out, I desolder the board from the RCA jacks. Then when done with the board, simply resolder it. 
-    * Addendum: yes but you are likely to break the ground pins trying to unfold them (¾ broke; fixed with copper band tying the grounds together and soldering with amp on back panel to pull solder down onto broken tabs. Also added copper ties between each pin pad.)
+  * [version 2](https://www.audiokarma.org/forums/index.php?threads/au-717-recap.903438/page-4#post-14698871): Don't remove the plastic push-in fasteners
+    * With F-2721 and F-2722 driver boards removed
+    * desolder the board from the RCA jacks. Then when done with the board, simply resolder RCA jacks
+    * **Addendum: DO NOT DO THIS** yes you can but you are likely to break the RCA jack ground pins trying to unfold them
+      * 3 of 4 of mine broke
+      * Fixed with copper band tying the grounds together and soldering with amp on its back panel to pull solder down onto broken tabs to *retain* a connection at the PCB pad. Also added copper ties between each pin pad on top.
 
-
-
-
-------------------------------------------------
