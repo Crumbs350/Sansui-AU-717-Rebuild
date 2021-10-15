@@ -21,9 +21,9 @@ Parts.md = general information about electrical parts
 ## What you need for the job
 
 ### Replacement Parts and a Plan
-* [See below for plan](#sansui au-717 rebuild plans and online guides)
+* [See below for plan](#sansui-au-717-rebuild-plans-and-online-guides)
 * [Parts list used](parts_replaced_readme.md)
-* source of the parts list outlined in [Bill of Materials](#bill of materials) section below
+* source of the parts list outlined in [Bill of Materials](#bill-of-materials) section below
 
 ### Tools
 * wrap all but the tip of a small screwdriver with electrical tape to use to adjust amp offset and bias
