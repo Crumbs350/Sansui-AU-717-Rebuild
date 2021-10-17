@@ -142,14 +142,16 @@ I did not do these:
 * [Binding Post Modification](https://www.stereo.net.au/forums/topic/48612-binding-post-modification-for-a-sansui-au717-amplifier/)
 
 Input Signal Level Modification For Vintage Sensitivity (due to high modern signal level):
+* technically the -20 dB muting switch handles this and it is unclear if it would help the AU-717 but I investigated while trying to figure out why signal was fading in and out
 * Per [JoseHH](https://audiokarma.org/forums/index.php?threads/1979-sansui-au-717-tu-717.967151/page-3#post-15048735) and [Multimode](https://audiokarma.org/forums/index.php?threads/cambridge-cxn-into-sansui-au-919.765205/#post-10442568) Audiokarma users
 * -20 dB attentuators to lower modern 2VRMS signals to better match Sansui 150 mV input sensitivity and max signal level
 * note looking at specs for post-CD era receivers shows around 200 mV input sensitivity
 * when sensititivity is a problem symptoms:
   * "Although potentiometers work reasonably well over most of their operating range, they are notoriously problematic at extreme settings. The most obvious problem is channel imbalance - one channel will fade out (or fade in) quicker than the other, causing the stereo image to shift to one side - but on a more subtle level, the music may sound veiled and indistinct with the volume control turned down to the point where it is nearly off. Some people have tried to cure the problem by fitting a more expensive volume control only to find that it doesn't do much good." per [Rothwell Audio](http://www.rothwellaudioproducts.co.uk/html/attenuators.html)
-* potential vendors:
+* potential vendors (options):
   * UK: [Rothwell Audio Products](http://www.rothwellaudioproducts.co.uk/html/attenuators.html) page includes an overview explanation
   * [Russ Andrews](http://www.russandrews.com/what-is-attenuation/)
+  * [Volume control](https://audiokarma.org/forums/index.php?threads/au-317-taming-the-volume.722517/#post-14494510)
 
 ## How To
 Consolidation of specific how tos representative in whole (or part) of what I did, based on [reference content ](howto_reference_guide_notes.md) or other specific references as mentioned below.
