@@ -139,7 +139,9 @@ I did not do significant transistor mods using different case format or change t
 
 ### Other Modifications
 I did not do these:
-* [Binding Post Modification](https://www.stereo.net.au/forums/topic/48612-binding-post-modification-for-a-sansui-au717-amplifier/)
+* Binding Post Modification:
+  * [Version 1 Requires Effort](https://www.stereo.net.au/forums/topic/48612-binding-post-modification-for-a-sansui-au717-amplifier/)
+  * [Version 2 Easy-Button Parts Order](https://speaker-terminal.com/en/produkt/sansui-au-717-speaker-terminal/) as referenced by [Alex22](https://audiokarma.org/forums/index.php?threads/sansui-au-517-needs-recap.974218/page-2#post-15133376) for his [AU-517](https://speaker-terminal.com/en/produkt/sansui-au-517-speaker-terminal/)
 
 Input Signal Level Modification For Vintage Sensitivity (due to high modern signal level):
 * technically the -20 dB muting switch handles this and it is unclear if it would help the AU-717 but I investigated while trying to figure out why signal was fading in and out
