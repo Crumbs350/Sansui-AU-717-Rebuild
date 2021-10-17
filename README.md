@@ -42,8 +42,11 @@ license.txt | legal stuff, rules for sharing
 * source of the parts list outlined in [Bill of Materials](#bill-of-materials) section below
 
 ### Tools
-* wrap all but the tip of a small screwdriver with electrical tape to use to adjust amp offset and bias
+* wrap all but the tip of a small standard screwdriver with electrical tape to use to adjust amp offset and bias
 * [dim build tester](https://antiqueradio.org/dimbulb.htm) to test for shorts after work
+* phillips screwdrivers of different sizes and tips
+* 12mm deep well socket for volume knob jam nut
+* plastic body panel removal tools (optional) to pull stubborn knobs after set screw removal
 * cut credit card = PCB safe scrapper
 * gloves
 * fan - use to extract/disperse fumes
@@ -250,3 +253,29 @@ https://uk.farnell.com/tr-fastening...342242&searchref=searchlookahead&exaMfpn=t
       * 3 of 4 of mine broke
       * Fixed with copper band tying the grounds together and soldering with amp on its back panel to pull solder down onto broken tabs to *retain* a connection at the PCB pad. Also added copper ties between each pin pad on top.
 
+#### Controls and Panels
+* note the control position at time of removal, most have clear detents but this helps you understand where to start when puttingn the knob back on
+* put the knobs and switch covers on a piece of paper with each clearly marked to avoid confusion
+
+##### knob removal tricks
+1. 1.5 mm allen wrench to release knob
+   * takes about a full turn
+   * if knob does not remove it is safer to loosen more to make sure the set screw is not captured
+2. pull out on knob along shaft to remove the knob
+3. for stubborn knobs use either of the following to generate leverage under the knob while pulling:
+   * a plastic body panel removal tool (what I did)
+   * an old credit card with a notch cut in it (note not tested, may not be strong enough)
+   * a t-shirt wrapped under and around the knob then twisted to give a leash to pull (I think I read this in a guitar service manel once)
+
+##### volume potentiometer
+1. remove the inner partial cover plate (4 screws)
+2. use a 12 mm deep-well socket to remove the jam nut on the inner face plate panel
+3. use a small phillips screwdriver to loosen the stack see [directions](https://audiokarma.org/forums/index.php?threads/sansui-au-717-volume-control-pot-maitenence-help-please.43185/#post-594781)
+   * monitor the screw placement in the back nut to avoid complete separation
+   * put tape over the back nut to hold it in place
+
+##### source and copy selector shafts
+* use c retention clips
+
+##### switch covers
+* pull these straight off the metal switch blade
