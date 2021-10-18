@@ -209,10 +209,13 @@ Consolidation of specific how tos representative in whole (or part) of what I di
   * DeOxit Red stuff clean
   * DeOxit ProLube or DeOxit GOLD, to lubricate and protect the switches. 
 * clean/lubricate volume control:
+  * [disassembly vs drilling and the question of what is really causing signal drop-out](https://audiokarma.org/forums/index.php?threads/au-717-volume-pot-accessing-cleaning.294270/)
+    * try wiggling pre-amp connection switch
   * [no disassembly shaft soak method](https://audiokarma.org/forums/index.php?threads/sansui-au-717-517-919-sticking-volume-pot.754547/#post-11027014) [picture](https://audiokarma.org/forums/index.php?attachments/stem-lube-jpg.1045954/)
   * [partial disassembly method](https://audiokarma.org/forums/index.php?threads/sansui-au-717-volume-control-pot-maitenence-help-please.43185/#post-594781)
   * [complete disassembly repair method (avoid unless necessary)](https://audiokarma.org/forums/index.php?threads/au-517-volume-pot-repair.689529/)
   * [drill method (not recommended)](http://www.cdkands.com/AU717-7.html)
+    * the drill method is controversial, others swear it is less likely to cause issues than partial disassembly
   * see [volume potentiometer](#volume-potentiometer) below
 * Search Skywatcher #282 in [howto_reference_guide_notes.md](howto_reference_guide_notes.md) for suggestion on more extreme disassembly and cleaning using brush and water of parts
 
