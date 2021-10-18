@@ -209,8 +209,11 @@ Consolidation of specific how tos representative in whole (or part) of what I di
   * DeOxit Red stuff clean
   * DeOxit ProLube or DeOxit GOLD, to lubricate and protect the switches. 
 * clean/lubricate volume control:
-  * [partial dissembly method](https://audiokarma.org/forums/index.php?threads/sansui-au-717-volume-control-pot-maitenence-help-please.43185/#post-594781)
+  * [no disassembly shaft soak method](https://audiokarma.org/forums/index.php?threads/sansui-au-717-517-919-sticking-volume-pot.754547/#post-11027014) [picture](https://audiokarma.org/forums/index.php?attachments/stem-lube-jpg.1045954/)
+  * [partial disassembly method](https://audiokarma.org/forums/index.php?threads/sansui-au-717-volume-control-pot-maitenence-help-please.43185/#post-594781)
+  * [complete disassembly repair method (avoid unless necessary)](https://audiokarma.org/forums/index.php?threads/au-517-volume-pot-repair.689529/)
   * [drill method (not recommended)](http://www.cdkands.com/AU717-7.html)
+  * see [volume potentiometer](#volume-potentiometer) below
 * Search Skywatcher #282 in [howto_reference_guide_notes.md](howto_reference_guide_notes.md) for suggestion on more extreme disassembly and cleaning using brush and water of parts
 
 ### Disassembly and Specific Actions
@@ -282,6 +285,7 @@ https://uk.farnell.com/tr-fastening...342242&searchref=searchlookahead&exaMfpn=t
    * a t-shirt wrapped under and around the knob then twisted to give a leash to pull (I think I read this in a guitar service manel once)
 
 ##### volume potentiometer
+
 1. remove the inner partial cover plate (4 screws)
 2. use a 12 mm deep-well socket to remove the jam nut on the inner face plate panel
 3. use a small phillips screwdriver to loosen the stack see [directions](https://audiokarma.org/forums/index.php?threads/sansui-au-717-volume-control-pot-maitenence-help-please.43185/#post-594781)
