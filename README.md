@@ -188,6 +188,7 @@ Consolidation of specific how tos representative in whole (or part) of what I di
 #### Thermal Grease
 * Clean old dried thermal grease with alcohol and a soft cloth
 * Note I used a old credit card or razor blade to spread new compound
+* Should replace Mica insulators when you do this for power transistors. Some have used [Keystone 4636 TO3 Mica Insulator for transistors	Mouser Part 534-4636](https://www.mouser.ca/ProductDetail/Keystone-Electronics/4636?qs=%2Fha2pyFadujp6VwXBQ0HmAA8J2wSb1PbusiTW%2FV%2Fbu7g2AKaV%252BP6Hw==)
 
 #### Control (Switch/Potentiometer) cleaning threads:
 * What chemical?
