@@ -238,6 +238,8 @@ Preference is to work on the boards in situ whenever possible.
 * remove 4 chassis mounting screws
 * you can disconnect the PCB from the heatsink but you do not have to remove the wired transistor connection during PCB work if you are careful
 * remove the corrosive glue from these boards
+* manually test conductance of power transistor mica insulator pad [ref](https://audiokarma.org/forums/index.php?threads/sansui-au-517-needs-recap.974218/page-7#post-15162067)
+  * Once the mica is installed under the transistor use a multimeter to test for a short from the transistor casing to the heatsink.  * 
 
 #### F-2723
 * https://audiokarma.org/forums/index.php?threads/leestereos-restoration-upgrade-of-a-sansui-au-717.641945/page-13#post-13122658
